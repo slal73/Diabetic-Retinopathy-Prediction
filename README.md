@@ -18,3 +18,5 @@ Train Accuracy : `80%`
 Test Accuracy : `75%`
 
 Dataset used : Diabetic Retinopathy Debrecen Data Set
+
+Next Steps : Implement a model to increase accuracy and reduce bias.
