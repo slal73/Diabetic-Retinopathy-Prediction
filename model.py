@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from keras.layers import Activation, Dense
 from keras.models import model_from_json
 
-seed = 7
+seed = 6
 
 np.random.seed(seed) # to get constant results
 
