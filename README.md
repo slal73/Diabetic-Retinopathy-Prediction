@@ -5,7 +5,7 @@ Model : `Sequential`
 
 Layers : `4`
 
-Activation Layout : `relu->tanh->relu->sigmoid`
+Activation Layout : `relu->relu->sigmoid`
 
 Output layer has been set to sigmoid to get uniform outputs of 0 or 1
 
@@ -13,7 +13,7 @@ Optimizer : `adam`
 
 This model can be used for binary classification with dataset containing *no string* values.
 
-Train Accuracy : `83%`
+Train Accuracy : `85%`
 
 Test Accuracy : `76%`
 
