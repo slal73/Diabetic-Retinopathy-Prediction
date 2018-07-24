@@ -43,7 +43,7 @@ model.compile(loss='mse', optimizer='adam', metrics=['accuracy'])
 model.fit(X, Y, epochs=300, batch_size=20) #you can alter this according to your needs. Hit and Trial works :)
 
 scores = model.evaluate(X, Y)
-print("\n%s: %.2f%%" % (model.metrics_names[1], scores[1]*100)) #Getting 80% Train Accuracy
+print("\n%s: %.2f%%" % (model.metrics_names[1], scores[1]*100)) #Getting 85% Train Accuracy
 
 model_json = model.to_json()
 with open('model.json','w') as json_file:
@@ -62,4 +62,4 @@ rounded = [round(x[0]) for x in predictions]
 print(rounded)
 
 scores = model.evaluate(X_Test, Y_Test)
-print("\n%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))  #Test Accuracy = 75%
+print("\n%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))  #Test Accuracy = 76%
