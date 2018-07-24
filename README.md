@@ -20,3 +20,19 @@ Test Accuracy : `76%`
 Dataset used : Diabetic Retinopathy Debrecen Data Set
 
 Next Steps : Implement a model to increase accuracy and reduce bias.
+
+**Environment Setup**
+
+Use the following commands for installing the libraries
+
+`$ pip3 install numpy`
+`$ pip3 install pandas`
+`$ pip3 install keras`
+
+**How to Use**
+
+The dataset file should be in the same directory as the model
+
+Command `$ python model.py` 
+
+The following files will be generated upon successful execution of the model `model.h5 model.json`
