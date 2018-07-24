@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from keras.layers import Activation, Dense
 from keras.models import model_from_json
 
-seed = 6
+seed = 3
 
 np.random.seed(seed) # to get constant results
 
@@ -24,14 +24,13 @@ scaler.fit(dataset)
 dataset = scaler.transform(dataset)
 
 model = Sequential()
-model.add(Dense(8, input_dim=19,activation='relu', init="uniform"))
-model.add(Dense(4, activation='tanh'))
-model.add(Dense(2, activation='relu'))
+model.add(Dense(19, input_dim=19,activation='relu', init="uniform"))
+model.add(Dense(64, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
 
 # relu->tanh->relu->sigmoid(0 or 1)
 
-model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+model.compile(loss='mse', optimizer='adam', metrics=['accuracy'])
 
 model.fit(X, Y, epochs=300, batch_size=20) #you can alter this according to your needs. Hit and Trial works :)
 
