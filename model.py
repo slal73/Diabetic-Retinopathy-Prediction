@@ -1,3 +1,11 @@
+# *********************************************
+# Diabetic Retinopathy Prediction using Keras
+
+# Yug Khanna - 24 July 2018
+# *********************************************
+
+
+
 import numpy as np
 import pandas as pd
 from keras.models import Sequential
