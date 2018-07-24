@@ -13,9 +13,9 @@ Optimizer : `adam`
 
 This model can be used for binary classification with dataset containing *no string* values.
 
-Train Accuracy : `80%`
+Train Accuracy : `83%`
 
-Test Accuracy : `75%`
+Test Accuracy : `76%`
 
 Dataset used : Diabetic Retinopathy Debrecen Data Set
 
