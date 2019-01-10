@@ -40,3 +40,6 @@ The dataset file should be in the same directory as the model
 Command `$ python model.py` 
 
 The following files will be generated upon successful execution of the model `model.h5 model.json`
+
+### Update (Jan 2019)
+Major refactoring and a different architecture coming up.
