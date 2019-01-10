@@ -23,7 +23,7 @@ Next Steps : Implement a model to increase accuracy and reduce bias.
 
 ---
 
-**Environment Setup**
+### Environment Setup
 
 Use the following commands for installing the libraries
 
@@ -33,7 +33,7 @@ Use the following commands for installing the libraries
 
 ---
 
-**How to Use**
+### How to Use
 
 The dataset file should be in the same directory as the model
 
