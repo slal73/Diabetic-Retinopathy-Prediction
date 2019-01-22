@@ -28,7 +28,9 @@ Next Steps : Implement a model to increase accuracy and reduce bias.
 Use the following commands for installing the libraries
 
 `$ pip3 install numpy`
+
 `$ pip3 install pandas`
+
 `$ pip3 install keras`
 
 ---
